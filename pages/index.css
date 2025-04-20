@@ -6,3 +6,130 @@
   line-height: 20px;
   margin: 0 auto;
 }
+.header {
+  background-image: url("../images/background_header.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+  position: relative;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 20px;
+  padding: 0;
+}
+
+.nav__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+}
+.header__content {
+  position: relative;
+  top: 183px;
+  left: 80px;
+  max-width: 709px;
+}
+
+.header__title {
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.header__title-line_type_primary {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__title-line_type_secondary {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  color: #000000;
+}
+
+.header__description {
+  display: flex;
+  max-width: 683px;
+  position: relative;
+  top: 20px;
+  left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 300px;
+  position: relative;
+}
+
+.header__image {
+  width: 646px;
+  height: auto;
+  position: absolute;
+  top: 124px;
+  right: 0;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0;
+  color: #838383;
+}
+
+.header__schedule {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+
+.header__address {
+  display: flex;
+  max-width: 683px;
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
