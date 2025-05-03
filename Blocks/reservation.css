@@ -4,14 +4,10 @@
   background-position: center;
   background-size: cover;
   background-color: #d9e7ff;
-  background-color: #d9e7ff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 80px;
   position: relative;
-  padding-bottom: 100px;
-  margin-bottom: 80px;
 }
 
 .reservation__title {
@@ -22,7 +18,7 @@
   line-height: 52px;
   text-align: center;
   max-width: 500px;
-  margin: 0 auto 80px;
+  margin: 100px auto 80px;
 }
 
 .reservation__image-container {
@@ -99,8 +95,9 @@
 
 .reservation__checkbox {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   margin: 0 auto; /* centra horizontalmente */
   width: fit-content;
+  gap: 12px;
 }

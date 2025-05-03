@@ -1,4 +1,5 @@
 @import url(./vendor/normalize.css);
+@import url(../Blocks/footer.css);
 @import url(../Blocks/page.css);
 @import url(../Blocks/header.css);
 @import url(../Blocks/nav.css);
@@ -6,4 +7,3 @@
 @import url(../Blocks/recipes.css);
 @import url(../Blocks/reservation.css);
 @import url(../Blocks/form.css);
-@import url(../Blocks/footer.css);
