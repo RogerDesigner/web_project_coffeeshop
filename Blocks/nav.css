@@ -26,4 +26,9 @@
   position: relative;
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
